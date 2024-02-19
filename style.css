@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 66.3px;
+    background-color: #f9fafb;
+    color: black;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 50.3px;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 50.3px;
+}
+
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;  
+  display: inline;
+  color: black;
+  background-color: white;
+  text-transform: capitalize;
+}
+
+li{
+    list-style: none;
+}
+
+.outer{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+}

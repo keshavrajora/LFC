@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://lookingforcontributors.web.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" type="image/svg+xml" href="./LFC - Looking for contributors_files/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LFC - Looking for contributors</title>
+    <script type="module" crossorigin="" src="./LFC - Looking for contributors_files/index-aofdeQgV.js.download"></script>
+    <link rel="stylesheet" crossorigin="" href="./LFC - Looking for contributors_files/index-hWUO5hyd.css">
+  <style type="text/css" data-primereact-style-id="base">
+.p-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.p-hidden-accessible input,
+.p-hidden-accessible select {
+    transform: scale(0);
+}
+
+.p-overflow-hidden {
+    overflow: hidden;
+    padding-right: var(--scrollbar-width);
+}
+</style><style type="text/css" data-primereact-style-id="global"></style><style type="text/css" data-primereact-style-id="common">
+@layer primereact {
+    .p-component, .p-component * {
+        box-sizing: border-box;
+    }
+
+    .p-hidden {
+        display: none;
+    }
+
+    .p-hidden-space {
+        visibility: hidden;
+    }
+
+    .p-reset {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        text-decoration: none;
+        font-size: 100%;
+        list-style: none;
+    }
+
+    .p-disabled, .p-disabled * {
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
+
+    .p-component-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .p-unselectable-text {
+        user-select: none;
+    }
+
+    .p-scrollbar-measure {
+        width: 100px;
+        height: 100px;
+        overflow: scroll;
+        position: absolute;
+        top: -9999px;
+    }
+
+    @-webkit-keyframes p-fadein {
+      0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes p-fadein {
+      0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .p-link {
+        text-align: left;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        border: none;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .p-link:disabled {
+        cursor: default;
+    }
+
+    /* Non react overlay animations */
+    .p-connected-overlay {
+        opacity: 0;
+        transform: scaleY(0.8);
+        transition: transform .12s cubic-bezier(0, 0, 0.2, 1), opacity .12s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    .p-connected-overlay-visible {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    .p-connected-overlay-hidden {
+        opacity: 0;
+        transform: scaleY(1);
+        transition: opacity .1s linear;
+    }
+
+    /* React based overlay animations */
+    .p-connected-overlay-enter {
+        opacity: 0;
+        transform: scaleY(0.8);
+    }
+
+    .p-connected-overlay-enter-active {
+        opacity: 1;
+        transform: scaleY(1);
+        transition: transform .12s cubic-bezier(0, 0, 0.2, 1), opacity .12s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    .p-connected-overlay-enter-done {
+        transform: none;
+    }
+
+    .p-connected-overlay-exit {
+        opacity: 1;
+    }
+
+    .p-connected-overlay-exit-active {
+        opacity: 0;
+        transition: opacity .1s linear;
+    }
+
+    /* Toggleable Content */
+    .p-toggleable-content-enter {
+        max-height: 0;
+    }
+
+    .p-toggleable-content-enter-active {
+        overflow: hidden;
+        max-height: 1000px;
+        transition: max-height 1s ease-in-out;
+    }
+
+    .p-toggleable-content-enter-done {
+        transform: none;
+    }
+
+    .p-toggleable-content-exit {
+        max-height: 1000px;
+    }
+
+    .p-toggleable-content-exit-active {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.45s cubic-bezier(0, 1, 0, 1);
+    }
+
+    .p-sr-only {
+        border: 0;
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        word-wrap: normal;
+    }
+
+    /* @todo Refactor */
+    .p-menu .p-menuitem-link {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        overflow: hidden;
+        position: relative;
+    }
+
+    
+.p-button {
+    margin: 0;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.p-button-label {
+    flex: 1 1 auto;
+}
+
+.p-button-icon-right {
+    order: 1;
+}
+
+.p-button:disabled {
+    cursor: default;
+}
+
+.p-button-icon-only {
+    justify-content: center;
+}
+
+.p-button-icon-only .p-button-label {
+    visibility: hidden;
+    width: 0;
+    flex: 0 0 auto;
+}
+
+.p-button-vertical {
+    flex-direction: column;
+}
+
+.p-button-icon-bottom {
+    order: 2;
+}
+
+.p-buttonset .p-button {
+    margin: 0;
+}
+
+.p-buttonset .p-button:not(:last-child) {
+    border-right: 0 none;
+}
+
+.p-buttonset .p-button:not(:first-of-type):not(:last-of-type) {
+    border-radius: 0;
+}
+
+.p-buttonset .p-button:first-of-type {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.p-buttonset .p-button:last-of-type {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.p-buttonset .p-button:focus {
+    position: relative;
+    z-index: 1;
+}
+
+    
+.p-checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.p-checkbox.p-checkbox-disabled {
+    cursor: auto;
+}
+
+.p-checkbox-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+.p-inputtext {
+    margin: 0;
+}
+
+.p-fluid .p-inputtext {
+    width: 100%;
+}
+
+/* InputGroup */
+.p-inputgroup {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.p-inputgroup-addon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-inputgroup .p-float-label {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.p-inputgroup .p-inputtext,
+.p-fluid .p-inputgroup .p-inputtext,
+.p-inputgroup .p-inputwrapper,
+.p-fluid .p-inputgroup .p-input {
+    flex: 1 1 auto;
+    width: 1%;
+}
+
+/* Floating Label */
+.p-float-label {
+    display: block;
+    position: relative;
+}
+
+.p-float-label label {
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    margin-top: -0.5rem;
+    transition-property: all;
+    transition-timing-function: ease;
+    line-height: 1;
+}
+
+.p-float-label textarea ~ label,
+.p-float-label .p-mention ~ label {
+    top: 1rem;
+}
+
+.p-float-label input:focus ~ label,
+.p-float-label input:-webkit-autofill ~ label,
+.p-float-label input.p-filled ~ label,
+.p-float-label textarea:focus ~ label,
+.p-float-label textarea.p-filled ~ label,
+.p-float-label .p-inputwrapper-focus ~ label,
+.p-float-label .p-inputwrapper-filled ~ label,
+.p-float-label .p-tooltip-target-wrapper ~ label {
+    top: -0.75rem;
+    font-size: 12px;
+}
+
+.p-float-label .p-placeholder,
+.p-float-label input::placeholder,
+.p-float-label .p-inputtext::placeholder {
+    opacity: 0;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.p-float-label .p-focus .p-placeholder,
+.p-float-label input:focus::placeholder,
+.p-float-label .p-inputtext:focus::placeholder {
+    opacity: 1;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.p-input-icon-left,
+.p-input-icon-right {
+    position: relative;
+    display: inline-block;
+}
+
+.p-input-icon-left > i,
+.p-input-icon-right > i,
+.p-input-icon-left > svg,
+.p-input-icon-right > svg,
+.p-input-icon-left > .p-input-prefix,
+.p-input-icon-right > .p-input-suffix {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+}
+
+.p-fluid .p-input-icon-left,
+.p-fluid .p-input-icon-right {
+    display: block;
+    width: 100%;
+}
+
+    
+.p-radiobutton {
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: bottom;
+}
+
+.p-radiobutton-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-radiobutton-icon {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(.1);
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.p-radiobutton-box.p-highlight .p-radiobutton-icon {
+    transform: translateZ(0) scale(1.0, 1.0);
+    visibility: visible;
+}
+
+
+    
+.p-icon {
+    display: inline-block;
+}
+
+.p-icon-spin {
+    -webkit-animation: p-icon-spin 2s infinite linear;
+    animation: p-icon-spin 2s infinite linear;
+}
+
+svg.p-icon {
+    pointer-events: auto;
+}
+
+svg.p-icon g {
+    pointer-events: none;
+}
+
+@-webkit-keyframes p-icon-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes p-icon-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+}
+</style><style type="text/css" data-primereact-style-id="chip">
+@layer primereact {
+    .p-chip {
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .p-chip-text {
+        line-height: 1.5;
+    }
+    
+    .p-chip-icon.pi {
+        line-height: 1.5;
+    }
+    
+    .p-chip .p-chip-remove-icon {
+        line-height: 1.5;
+        cursor: pointer;
+    }
+    
+    .p-chip img {
+        border-radius: 50%;
+    }
+}
+</style><style type="text/css" data-primereact-style-id="ripple">
+@layer primereact {
+    .p-ripple {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .p-ink {
+        display: block;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100%;
+        transform: scale(0);
+    }
+    
+    .p-ink-active {
+        animation: ripple 0.4s linear;
+    }
+    
+    .p-ripple-disabled .p-ink {
+        display: none;
+    }
+}
+
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+</style><style type="text/css" data-primereact-style-id="dialog">
+@layer primereact {
+    .p-dialog-mask {
+        background-color: transparent;
+        transition-property: background-color;
+    }
+    
+    .p-dialog-visible {
+        display: flex;
+    }
+    
+    .p-dialog-mask.p-component-overlay {
+        pointer-events: auto;
+    }
+    
+    .p-dialog {
+        display: flex;
+        flex-direction: column;
+        pointer-events: auto;
+        max-height: 90%;
+        transform: scale(1);
+        position: relative;
+    }
+    
+    .p-dialog-content {
+        overflow-y: auto;
+        flex-grow: 1;
+    }
+    
+    .p-dialog-header {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .p-dialog-footer {
+        flex-shrink: 0;
+    }
+    
+    .p-dialog .p-dialog-header-icons {
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        flex-shrink: 0;
+    }
+    
+    .p-dialog .p-dialog-header-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .p-dialog .p-dialog-title {
+        flex-grow: 1;
+    }
+    
+    /* Fluid */
+    .p-fluid .p-dialog-footer .p-button {
+        width: auto;
+    }
+    
+    /* Animation */
+    /* Center */
+    .p-dialog-enter {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    
+    .p-dialog-enter-active {
+        opacity: 1;
+        transform: scale(1);
+        transition: all 150ms cubic-bezier(0, 0, 0.2, 1);
+    }
+    
+    .p-dialog-enter-done {
+        transform: none;
+    }
+    
+    .p-dialog-exit-active {
+        opacity: 0;
+        transform: scale(0.7);
+        transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    /* Top, Bottom, Left, Right, Top* and Bottom* */
+    .p-dialog-top .p-dialog,
+    .p-dialog-bottom .p-dialog,
+    .p-dialog-left .p-dialog,
+    .p-dialog-right .p-dialog,
+    .p-dialog-top-left .p-dialog,
+    .p-dialog-top-right .p-dialog,
+    .p-dialog-bottom-left .p-dialog,
+    .p-dialog-bottom-right .p-dialog {
+        margin: 0.75em;
+    }
+    
+    .p-dialog-top .p-dialog-enter,
+    .p-dialog-top .p-dialog-exit-active {
+        transform: translate3d(0px, -100%, 0px);
+    }
+    
+    .p-dialog-bottom .p-dialog-enter,
+    .p-dialog-bottom .p-dialog-exit-active {
+        transform: translate3d(0px, 100%, 0px);
+    }
+    
+    .p-dialog-left .p-dialog-enter,
+    .p-dialog-left .p-dialog-exit-active,
+    .p-dialog-top-left .p-dialog-enter,
+    .p-dialog-top-left .p-dialog-exit-active,
+    .p-dialog-bottom-left .p-dialog-enter,
+    .p-dialog-bottom-left .p-dialog-exit-active {
+        transform: translate3d(-100%, 0px, 0px);
+    }
+    
+    .p-dialog-right .p-dialog-enter,
+    .p-dialog-right .p-dialog-exit-active,
+    .p-dialog-top-right .p-dialog-enter,
+    .p-dialog-top-right .p-dialog-exit-active,
+    .p-dialog-bottom-right .p-dialog-enter,
+    .p-dialog-bottom-right .p-dialog-exit-active {
+        transform: translate3d(100%, 0px, 0px);
+    }
+    
+    .p-dialog-top .p-dialog-enter-active,
+    .p-dialog-bottom .p-dialog-enter-active,
+    .p-dialog-left .p-dialog-enter-active,
+    .p-dialog-top-left .p-dialog-enter-active,
+    .p-dialog-bottom-left .p-dialog-enter-active,
+    .p-dialog-right .p-dialog-enter-active,
+    .p-dialog-top-right .p-dialog-enter-active,
+    .p-dialog-bottom-right .p-dialog-enter-active {
+        transform: translate3d(0px, 0px, 0px);
+        transition: all 0.3s ease-out;
+    }
+    
+    .p-dialog-top .p-dialog-exit-active,
+    .p-dialog-bottom .p-dialog-exit-active,
+    .p-dialog-left .p-dialog-exit-active,
+    .p-dialog-top-left .p-dialog-exit-active,
+    .p-dialog-bottom-left .p-dialog-exit-active,
+    .p-dialog-right .p-dialog-exit-active,
+    .p-dialog-top-right .p-dialog-exit-active,
+    .p-dialog-bottom-right .p-dialog-exit-active {
+        transition: all 0.3s ease-out;
+    }
+    
+    /* Maximize */
+    .p-dialog-maximized {
+        transition: none;
+        transform: none;
+        margin: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        max-height: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .p-dialog-maximized .p-dialog-content {
+        flex-grow: 1;
+    }
+    
+    .p-confirm-dialog .p-dialog-content {
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Resizable */
+    .p-dialog .p-resizable-handle {
+        position: absolute;
+        font-size: 0.1px;
+        display: block;
+        cursor: se-resize;
+        width: 12px;
+        height: 12px;
+        right: 1px;
+        bottom: 1px;
+    }
+    
+    .p-dialog-draggable .p-dialog-header {
+        cursor: move;
+    }        
+}
+</style><style type="text/css" data-primereact-style-id="slider">
+@layer primereact {
+    .p-slider {
+        position: relative;
+    }
+    
+    .p-slider .p-slider-handle {
+        position: absolute;
+        cursor: grab;
+        touch-action: none;
+        display: block;
+        z-index: 1;
+    }
+    
+    .p-slider .p-slider-handle.p-slider-handle-active {
+        z-index: 2;
+    }
+    
+    .p-slider-range {
+        position: absolute;
+        display: block;
+    }
+    
+    .p-slider-horizontal .p-slider-range {
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    
+    .p-slider-horizontal .p-slider-handle {
+        top: 50%;
+    }
+    
+    .p-slider-vertical {
+        height: 100px;
+    }
+    
+    .p-slider-vertical .p-slider-handle {
+        left: 50%;
+    }
+    
+    .p-slider-vertical .p-slider-range {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+</style><style type="text/css" data-primereact-style-id="progressspinner">
+@layer primereact {
+    .p-progress-spinner {
+        position: relative;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+    
+    .p-progress-spinner::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+    
+    .p-progress-spinner-svg {
+        animation: p-progress-spinner-rotate 2s linear infinite;
+        height: 100%;
+        transform-origin: center center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .p-progress-spinner-circle {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: 0;
+        stroke: #d62d20;
+        animation: p-progress-spinner-dash 1.5s ease-in-out infinite, p-progress-spinner-color 6s ease-in-out infinite;
+        stroke-linecap: round;
+    }
+}
+
+@keyframes p-progress-spinner-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes p-progress-spinner-dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@keyframes p-progress-spinner-color {
+    100%,
+    0% {
+        stroke: #d62d20;
+    }
+    40% {
+        stroke: #0057e7;
+    }
+    66% {
+        stroke: #008744;
+    }
+    80%,
+    90% {
+        stroke: #ffa700;
+    }
+}
+</style><style type="text/css" data-primereact-style-id="card">
+@layer primereact {
+    .p-card-header img {
+        width: 100%;
+    }
+}
+</style><style type="text/css" data-primereact-style-id="image">
+@layer primereact {
+    .p-image-mask {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .p-image-preview-container {
+        position: relative;
+        display: inline-block;
+        line-height: 0;
+    }
+    
+    .p-image-preview-indicator {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity .3s;
+        border: none;
+        padding: 0;
+    }
+    
+    .p-image-preview-icon {
+        font-size: 1.5rem;
+    }
+    
+    .p-image-preview-container:hover > .p-image-preview-indicator {
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    .p-image-preview-container > img {
+        cursor: pointer;
+    }
+    
+    .p-image-toolbar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        z-index: 1;
+    }
+    
+    .p-image-action.p-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .p-image-preview {
+        transition: transform .15s;
+        max-width: 100vw;
+        max-height: 100vh;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .p-image-preview-enter {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    
+    .p-image-preview-enter-active {
+        opacity: 1;
+        transform: scale(1);
+        transition: all 150ms cubic-bezier(0, 0, 0.2, 1);
+    }
+    
+    .p-image-preview-enter-done {
+        transform: none;
+    }
+    
+    .p-image-preview-exit {
+        opacity: 1;
+    }
+    
+    .p-image-preview-exit-active {
+        opacity: 0;
+        transform: scale(0.7);
+        transition: all 150ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+}
+</style><style type="text/css" data-primereact-style-id="divider">
+@layer primereact {
+    .p-divider-horizontal {
+        display: flex;
+        width: 100%;
+        position: relative;
+        align-items: center;
+    }
+    
+    .p-divider-horizontal:before {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        content: "";
+    }
+    
+    .p-divider-horizontal.p-divider-left {
+        justify-content: flex-start;
+    }
+    
+    .p-divider-horizontal.p-divider-right {
+        justify-content: flex-end;
+    }
+    
+    .p-divider-horizontal.p-divider-center {
+        justify-content: center;
+    }
+    
+    .p-divider-content {
+        z-index: 1;
+    }
+    
+    .p-divider-vertical {
+        min-height: 100%;
+        margin: 0 1rem;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    
+    .p-divider-vertical:before {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 50%;
+        height: 100%;
+        content: "";
+    }
+    
+    .p-divider-vertical.p-divider-top {
+        align-items: flex-start;
+    }
+    
+    .p-divider-vertical.p-divider-center {
+        align-items: center;
+    }
+    
+    .p-divider-vertical.p-divider-bottom {
+        align-items: flex-end;
+    }
+    
+    .p-divider-solid.p-divider-horizontal:before {
+        border-top-style: solid;
+    }
+    
+    .p-divider-solid.p-divider-vertical:before {
+        border-left-style: solid;
+    }
+    
+    .p-divider-dashed.p-divider-horizontal:before {
+        border-top-style: dashed;
+    }
+    
+    .p-divider-dashed.p-divider-vertical:before {
+        border-left-style: dashed;
+    }
+    
+    .p-divider-dotted.p-divider-horizontal:before {
+        border-top-style: dotted;
+    }
+    
+    .p-divider-dotted.p-divider-horizontal:before {
+        border-left-style: dotted;
+    }
+}
+</style><style type="text/css" data-primereact-style-id="progressbar">
+@layer primereact {
+  .p-progressbar {
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .p-progressbar-determinate .p-progressbar-value {
+      height: 100%;
+      width: 0%;
+      position: absolute;
+      display: none;
+      border: 0 none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+  
+  .p-progressbar-determinate .p-progressbar-label {
+      display: inline-flex;
+  }
+  
+  .p-progressbar-determinate .p-progressbar-value-animate {
+      transition: width 1s ease-in-out;
+  }
+  
+  .p-progressbar-indeterminate .p-progressbar-value::before {
+        content: '';
+        position: absolute;
+        background-color: inherit;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        will-change: left, right;
+        -webkit-animation: p-progressbar-indeterminate-anim 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+                animation: p-progressbar-indeterminate-anim 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  }
+  
+  .p-progressbar-indeterminate .p-progressbar-value::after {
+      content: '';
+      position: absolute;
+      background-color: inherit;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      will-change: left, right;
+      -webkit-animation: p-progressbar-indeterminate-anim-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+              animation: p-progressbar-indeterminate-anim-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+      -webkit-animation-delay: 1.15s;
+              animation-delay: 1.15s;
+  }
+}
+
+@-webkit-keyframes p-progressbar-indeterminate-anim {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; }
+}
+@keyframes p-progressbar-indeterminate-anim {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; }
+}
+
+@-webkit-keyframes p-progressbar-indeterminate-anim-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; }
+}
+@keyframes p-progressbar-indeterminate-anim-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; }
+}
+</style><style type="text/css" data-primereact-style-id="panel">
+        @layer primereact {
+            .p-panel-header {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            }
+            
+            .p-panel-title {
+              line-height: 1;
+            }
+            
+            .p-panel-header-icon {
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              text-decoration: none;
+              overflow: hidden;
+              position: relative;
+            }
+        }
+        </style></head>
+  <body>
+    <div id="root"><div class="font-bold min-w-full flex shadow-md z-20 border-red-300 justify-between px-3 py-2"><div class="flex flex-1 gap-2"><img src="./LFC - Looking for contributors_files/logo.png" width="50" height="auto" alt="LFC&#39;s logo"><span class="text-xl p-2">LFC <div class="h-6 p-chip p-component" aria-label="beta" data-pr-tooltip="Currently in development" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">beta</span></div> </span></div><div class="flex-1 flex justify-center"><span class="p-input-icon-left"><i class="pi pi-search"></i><input class="p-inputtext p-component" placeholder="Search" data-pc-name="inputtext" data-pc-section="root"></span></div><div class="flex-1 flex justify-end gap-2"><button class="p-button p-component p-button-success" data-pc-name="button" data-pc-section="root">Login</button></div></div><div class="min-w-full mt-2 flex justify-center z-10"><div class="w-1/5 min-h-[90vh] max-h-[90vh] bg-slate-100 rounded-r-lg py-3 px-2 flex flex-col gap-5"><div class="flex flex-col gap-1 bg-slate-200 px-1 py-2"><b class="ml-4">Skill Level:</b><div class="p-slider p-component mt-2 mx-6 p-slider-horizontal" data-pc-name="slider" data-pc-section="root"><span class="p-slider-range" data-pc-section="range" style="position: absolute; left: 0%; width: 100%;"></span><span class="p-slider-handle p-slider-handle-start p-slider-handle-active" tabindex="0" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-orientation="horizontal" data-pc-section="handle" style="position: absolute; left: 0%;"></span><span class="p-slider-handle p-slider-handle-end" tabindex="0" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-orientation="horizontal" data-pc-section="handle" style="position: absolute; left: 100%;"></span></div><div class="flex flex-row justify-between px-4 mt-1"><b>0</b><b>10</b></div></div><div class="flex flex-col gap-3 px-5"><div><b>Languages:</b></div><div class="flex flex-wrap justify-content-center gap-3"><div class="flex align-items-center"><div class="p-checkbox p-component" data-pc-name="checkbox" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="javascript" type="checkbox" name="javascript" data-pc-section="hiddeninput"></div><div class="p-checkbox-box" data-p-highlight="false" data-p-disabled="false" data-p-focus="false" data-pc-section="input"></div></div><label for="ingredient1" class="ml-2">Javascript</label></div><div class="flex align-items-center"><div class="p-checkbox p-component" data-pc-name="checkbox" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="typescript" type="checkbox" name="typescript" data-pc-section="hiddeninput"></div><div class="p-checkbox-box" data-p-highlight="false" data-p-disabled="false" data-p-focus="false" data-pc-section="input"></div></div><label for="ingredient1" class="ml-2">Typescript</label></div><div class="flex align-items-center"><div class="p-checkbox p-component" data-pc-name="checkbox" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="rust" type="checkbox" name="rust" data-pc-section="hiddeninput"></div><div class="p-checkbox-box" data-p-highlight="false" data-p-disabled="false" data-p-focus="false" data-pc-section="input"></div></div><label for="ingredient1" class="ml-2">Rust</label></div><div class="flex align-items-center"><div class="p-checkbox p-component" data-pc-name="checkbox" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="python" type="checkbox" name="python" data-pc-section="hiddeninput"></div><div class="p-checkbox-box" data-p-highlight="false" data-p-disabled="false" data-p-focus="false" data-pc-section="input"></div></div><label for="ingredient1" class="ml-2">Python</label></div><div class="flex align-items-center"><div class="p-checkbox p-component" data-pc-name="checkbox" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="markdown" type="checkbox" name="markdown" data-pc-section="hiddeninput"></div><div class="p-checkbox-box" data-p-highlight="false" data-p-disabled="false" data-p-focus="false" data-pc-section="input"></div></div><label for="ingredient1" class="ml-2">Markdown</label></div></div></div><div class="flex flex-col gap-3 px-5"><div><b>Order By:</b></div><div class="flex flex-wrap justify-content-center gap-3"><div class="flex align-items-center"><div class="p-radiobutton p-component p-radiobutton-checked" data-pc-name="radiobutton" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="recent" type="radio" name="recent" data-pc-section="hiddeninput" checked=""></div><div class="p-radiobutton-box p-highlight" data-pc-section="input"><div class="p-radiobutton-icon" data-pc-section="icon"></div></div></div><label for="ingredient1" class="ml-2">Recent</label></div><div class="flex align-items-center"><div class="p-radiobutton p-component" data-pc-name="radiobutton" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="older" type="radio" name="older" data-pc-section="hiddeninput"></div><div class="p-radiobutton-box" data-pc-section="input"><div class="p-radiobutton-icon" data-pc-section="icon"></div></div></div><label for="ingredient1" class="ml-2">Older</label></div><div class="flex align-items-center"><div class="p-radiobutton p-component" data-pc-name="radiobutton" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="popular" type="radio" name="popular" data-pc-section="hiddeninput"></div><div class="p-radiobutton-box" data-pc-section="input"><div class="p-radiobutton-icon" data-pc-section="icon"></div></div></div><label for="ingredient1" class="ml-2">Popular</label></div></div></div><div class="flex flex-col gap-3 px-5"><div><b>Filter By:</b></div><div class="flex flex-wrap justify-content-center gap-3"><div class="flex align-items-center"><div class="p-radiobutton p-component p-radiobutton-checked" data-pc-name="radiobutton" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="all" type="radio" name="all" data-pc-section="hiddeninput" checked=""></div><div class="p-radiobutton-box p-highlight" data-pc-section="input"><div class="p-radiobutton-icon" data-pc-section="icon"></div></div></div><label for="ingredient1" class="ml-2">All</label></div><div class="flex align-items-center"><div class="p-radiobutton p-component" data-pc-name="radiobutton" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="mine" type="radio" name="mine" data-pc-section="hiddeninput"></div><div class="p-radiobutton-box" data-pc-section="input"><div class="p-radiobutton-icon" data-pc-section="icon"></div></div></div><label for="ingredient1" class="ml-2">Mine</label></div><div class="flex align-items-center"><div class="p-radiobutton p-component" data-pc-name="radiobutton" data-pc-section="root"><div class="p-hidden-accessible" data-pc-section="hiddeninputwrapper"><input id="others" type="radio" name="others" data-pc-section="hiddeninput"></div><div class="p-radiobutton-box" data-pc-section="input"><div class="p-radiobutton-icon" data-pc-section="icon"></div></div></div><label for="ingredient1" class="ml-2">Others</label></div></div></div></div><div class="w-full flex-1 flex flex-col p-5 gap-3 max-h-[90vh] overflow-auto"><div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" data-pc-section="root" id="pr_id_4"><div class="p-panel-header" data-pc-section="header"><span id="pr_id_4_header" class="p-panel-title" data-pc-section="title">Wisdom Ziggurat </span><div class="p-panel-icons" data-pc-section="icons"><button class="p-panel-header-icon p-panel-toggler p-link" id="pr_id_4_label" aria-controls="pr_id_4_content" aria-expanded="true" role="tab" data-pc-section="toggler"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon" aria-hidden="true" data-pc-section="togglericon"><path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path></svg></button></div></div><div class="p-toggleable-content" role="region" id="pr_id_4_content" aria-labelledby="pr_id_4_header" data-pc-section="toggleablecontent"><div class="p-panel-content" data-pc-section="content"><div class="w-full flex flex-wrap gap-2"><div class="p-chip p-component p-chip-image" aria-label="harsh-100" data-pc-name="chip" data-pc-section="root"><img alt="chip" src="./LFC - Looking for contributors_files/harsh-100.png" data-pc-section="image"><span class="p-chip-text" data-pc-section="label">harsh-100</span></div><div class="p-chip p-component" aria-label="6 days ago" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">6 days ago</span></div><div class="p-chip p-component" aria-label="Jan 7, 2024 10:53 AM" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">Jan 7, 2024 10:53 AM</span></div></div><div class="mt-2 mx-2"><p># Wisdom Ziggurat </p><p>Wisdom Ziggurat is a small next.js app which helps you to manage your study resources upto 6 (first complete them  then add another ). It basically stores the link and name in the pyramid structures which tells you what you have to do first . If you have not done previous one then later one won't let you click . </p><p>SO , I am looking for contributors </p><ul><li>If you can give some UI adjustments here </li><li>Add some amazing animations to show the active level of  the ziggurat </li><li>some global theme (dark or light )</li><li>If you have some new features in mind , then just open a PR for it 🚀</li></ul></div><div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" role="separator" data-pc-name="divider" data-pc-section="root" style="justify-content: center;"><div class="p-divider-content" data-pc-section="content"></div></div><div class="flex flex-row gap-3"><a class="p-button p-button-secondary" href="https://github.com/harsh-100/wisdom-ziggurat" target="_blank">GitHub</a><a class="p-button p-button-info" href="https://github.com/harsh-100/wisdom-ziggurat" target="_blank">Website</a></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md" id="skill_label">Required Skill Level: </b></div><div class="mt-2 p-progressbar p-component p-progressbar-determinate" role="progressbar" aria-valuemin="0" aria-valuenow="30" aria-valuemax="100" aria-labelledby="skill_label" data-pc-name="progressbar" data-pc-section="root"><div class="p-progressbar-value p-progressbar-value-animate" data-pc-section="value" style="width: 30%; display: flex;"><div class="p-progressbar-label" data-pc-section="label">30%</div></div></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md">Languages: </b><div class="bg-slate-300 p-chip p-component" aria-label="javascript" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">javascript</span></div></div></div></div></div><div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" data-pc-section="root" id="pr_id_5"><div class="p-panel-header" data-pc-section="header"><span id="pr_id_5_header" class="p-panel-title" data-pc-section="title">Highdash</span><div class="p-panel-icons" data-pc-section="icons"><button class="p-panel-header-icon p-panel-toggler p-link" id="pr_id_5_label" aria-controls="pr_id_5_content" aria-expanded="true" role="tab" data-pc-section="toggler"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon" aria-hidden="true" data-pc-section="togglericon"><path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path></svg></button></div></div><div class="p-toggleable-content" role="region" id="pr_id_5_content" aria-labelledby="pr_id_5_header" data-pc-section="toggleablecontent"><div class="p-panel-content" data-pc-section="content"><div class="w-full flex flex-wrap gap-2"><div class="p-chip p-component p-chip-image" aria-label="himanshurajora" data-pc-name="chip" data-pc-section="root"><img alt="chip" src="./LFC - Looking for contributors_files/himanshurajora.png" data-pc-section="image"><span class="p-chip-text" data-pc-section="label">himanshurajora</span></div><div class="p-chip p-component" aria-label="9 days ago" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">9 days ago</span></div><div class="p-chip p-component" aria-label="Jan 4, 2024 10:14 PM" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">Jan 4, 2024 10:14 PM</span></div></div><div class="mt-2 mx-2"><p><br></p><p>█░█ █ █▀▀ █░█ █▀▄ ▄▀█ █▀ █░█</p><h4>█▀█ █ █▄█ █▀█ █▄▀ █▀█ ▄█ █▀█</h4><p><br></p><h4><strong>The lodash alternative in Rust.</strong></h4><p>You have decided switch to Rust from JavaScript but are missing some of the cool libraries such as <code>lodash</code>. This library tries to implement Lodash in rust and gives the experience as close as possible to lodash. Currently It is in development and has only implemented a few array methods. I am constantly working on it and adding new features. Hopefully this library will serve its purpose.</p></div><div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" role="separator" data-pc-name="divider" data-pc-section="root" style="justify-content: center;"><div class="p-divider-content" data-pc-section="content"></div></div><div class="flex flex-row gap-3"><a class="p-button p-button-secondary" href="https://github.com/himanshurajora/highdash" target="_blank">GitHub</a><a class="p-button p-button-info" href="https://crates.io/crates/highdash" target="_blank">Website</a></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md" id="skill_label">Required Skill Level: </b></div><div class="mt-2 p-progressbar p-component p-progressbar-determinate" role="progressbar" aria-valuemin="0" aria-valuenow="60" aria-valuemax="100" aria-labelledby="skill_label" data-pc-name="progressbar" data-pc-section="root"><div class="p-progressbar-value p-progressbar-value-animate" data-pc-section="value" style="width: 60%; display: flex;"><div class="p-progressbar-label" data-pc-section="label">60%</div></div></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md">Languages: </b><div class="bg-slate-300 p-chip p-component" aria-label="rust" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">rust</span></div></div></div></div></div><div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" data-pc-section="root" id="pr_id_6"><div class="p-panel-header" data-pc-section="header"><span id="pr_id_6_header" class="p-panel-title" data-pc-section="title">Looking For Contributors - LFC</span><div class="p-panel-icons" data-pc-section="icons"><button class="p-panel-header-icon p-panel-toggler p-link" id="pr_id_6_label" aria-controls="pr_id_6_content" aria-expanded="true" role="tab" data-pc-section="toggler"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon" aria-hidden="true" data-pc-section="togglericon"><path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path></svg></button></div></div><div class="p-toggleable-content" role="region" id="pr_id_6_content" aria-labelledby="pr_id_6_header" data-pc-section="toggleablecontent"><div class="p-panel-content" data-pc-section="content"><div class="w-full flex flex-wrap gap-2"><div class="p-chip p-component p-chip-image" aria-label="himanshurajora" data-pc-name="chip" data-pc-section="root"><img alt="chip" src="./LFC - Looking for contributors_files/himanshurajora.png" data-pc-section="image"><span class="p-chip-text" data-pc-section="label">himanshurajora</span></div><div class="p-chip p-component" aria-label="9 days ago" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">9 days ago</span></div><div class="p-chip p-component" aria-label="Jan 4, 2024 10:40 AM" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">Jan 4, 2024 10:40 AM</span></div></div><div class="mt-2 mx-2"><p>A place where Open Source contributors can share their project from beginner to advance level and ask the community for contributors.</p></div><div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" role="separator" data-pc-name="divider" data-pc-section="root" style="justify-content: center;"><div class="p-divider-content" data-pc-section="content"></div></div><div class="flex flex-row gap-3"><a class="p-button p-button-secondary" href="https://github.com/himanshurajora/lfc" target="_blank">GitHub</a><a class="p-button p-button-info" href="https://github.com/himanshurajora/lfc" target="_blank">Website</a></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md" id="skill_label">Required Skill Level: </b></div><div class="mt-2 p-progressbar p-component p-progressbar-determinate" role="progressbar" aria-valuemin="0" aria-valuenow="40" aria-valuemax="100" aria-labelledby="skill_label" data-pc-name="progressbar" data-pc-section="root"><div class="p-progressbar-value p-progressbar-value-animate" data-pc-section="value" style="width: 40%; display: flex;"><div class="p-progressbar-label" data-pc-section="label">40%</div></div></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md">Languages: </b><div class="bg-slate-300 p-chip p-component" aria-label="javascript" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">javascript</span></div><div class="bg-slate-300 p-chip p-component" aria-label="typescript" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">typescript</span></div></div></div></div></div><div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" data-pc-section="root" id="pr_id_7"><div class="p-panel-header" data-pc-section="header"><span id="pr_id_7_header" class="p-panel-title" data-pc-section="title">Minipoint</span><div class="p-panel-icons" data-pc-section="icons"><button class="p-panel-header-icon p-panel-toggler p-link" id="pr_id_7_label" aria-controls="pr_id_7_content" aria-expanded="true" role="tab" data-pc-section="toggler"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon" aria-hidden="true" data-pc-section="togglericon"><path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path></svg></button></div></div><div class="p-toggleable-content" role="region" id="pr_id_7_content" aria-labelledby="pr_id_7_header" data-pc-section="toggleablecontent"><div class="p-panel-content" data-pc-section="content"><div class="w-full flex flex-wrap gap-2"><div class="p-chip p-component p-chip-image" aria-label="himanshurajora" data-pc-name="chip" data-pc-section="root"><img alt="chip" src="./LFC - Looking for contributors_files/himanshurajora.png" data-pc-section="image"><span class="p-chip-text" data-pc-section="label">himanshurajora</span></div><div class="p-chip p-component" aria-label="12 days ago" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">12 days ago</span></div><div class="p-chip p-component" aria-label="Jan 1, 2024 11:43 PM" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">Jan 1, 2024 11:43 PM</span></div></div><div class="mt-2 mx-2">The right 2d graphics library for your experiments</div><div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" role="separator" data-pc-name="divider" data-pc-section="root" style="justify-content: center;"><div class="p-divider-content" data-pc-section="content"></div></div><div class="flex flex-row gap-3"><a class="p-button p-button-secondary" href="https://github.com/himanshurajora/minipoint" target="_blank">GitHub</a><a class="p-button p-button-info" href="https://minipoint.himanshujangid.com/" target="_blank">Website</a></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md" id="skill_label">Required Skill Level: </b></div><div class="mt-2 p-progressbar p-component p-progressbar-determinate" role="progressbar" aria-valuemin="0" aria-valuenow="80" aria-valuemax="100" aria-labelledby="skill_label" data-pc-name="progressbar" data-pc-section="root"><div class="p-progressbar-value p-progressbar-value-animate" data-pc-section="value" style="width: 80%; display: flex;"><div class="p-progressbar-label" data-pc-section="label">80%</div></div></div><div class="flex flex-row mt-3 items-center gap-3"><b class="text-md">Languages: </b><div class="bg-slate-300 p-chip p-component" aria-label="typescript" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">typescript</span></div><div class="bg-slate-300 p-chip p-component" aria-label="markdown" data-pc-name="chip" data-pc-section="root"><span class="p-chip-text" data-pc-section="label">markdown</span></div></div></div></div></div></div><div class="w-1/5 bg-slate-100 min-h-[90vh] max-h-[90vh] rounded-l-lg p-4 flex flex-col gap-2 overflow-auto"><div class="card"><div class="p-card p-component" data-pc-name="card" data-pc-section="root"><div class="p-card-body" data-pc-section="body"><div class="p-card-title" data-pc-section="title">Sponsors</div><div class="p-card-content" data-pc-section="content"><p class="m-0">@himanshurajora</p></div></div></div></div><div class="card"><div class="p-card p-component" data-pc-name="card" data-pc-section="root"><div class="p-card-body" data-pc-section="body"><div class="p-card-title" data-pc-section="title">Promotions</div><div class="p-card-content" data-pc-section="content"><div class="flex flex-col justify-center"><p class="m-0"> Place your Advertisement here</p><span class="p-image p-component mt-3 flex justify-center items-center p-image-preview-container" data-pc-name="image" data-pc-section="root"><img src="./LFC - Looking for contributors_files/logo.png" width="100" data-pc-section="image" alt="Image"><div class="p-image-preview-indicator" data-pc-section="button"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-image-preview-icon" aria-hidden="true" data-pc-section="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.0535499 7.25213C0.208567 7.59162 2.40413 12.4 7 12.4C11.5959 12.4 13.7914 7.59162 13.9465 7.25213C13.9487 7.2471 13.9506 7.24304 13.952 7.24001C13.9837 7.16396 14 7.08239 14 7.00001C14 6.91762 13.9837 6.83605 13.952 6.76001C13.9506 6.75697 13.9487 6.75292 13.9465 6.74788C13.7914 6.4084 11.5959 1.60001 7 1.60001C2.40413 1.60001 0.208567 6.40839 0.0535499 6.74788C0.0512519 6.75292 0.0494023 6.75697 0.048 6.76001C0.0163137 6.83605 0 6.91762 0 7.00001C0 7.08239 0.0163137 7.16396 0.048 7.24001C0.0494023 7.24304 0.0512519 7.2471 0.0535499 7.25213ZM7 11.2C3.664 11.2 1.736 7.92001 1.264 7.00001C1.736 6.08001 3.664 2.80001 7 2.80001C10.336 2.80001 12.264 6.08001 12.736 7.00001C12.264 7.92001 10.336 11.2 7 11.2ZM5.55551 9.16182C5.98308 9.44751 6.48576 9.6 7 9.6C7.68891 9.59789 8.349 9.32328 8.83614 8.83614C9.32328 8.349 9.59789 7.68891 9.59999 7C9.59999 6.48576 9.44751 5.98308 9.16182 5.55551C8.87612 5.12794 8.47006 4.7947 7.99497 4.59791C7.51988 4.40112 6.99711 4.34963 6.49276 4.44995C5.98841 4.55027 5.52513 4.7979 5.16152 5.16152C4.7979 5.52513 4.55027 5.98841 4.44995 6.49276C4.34963 6.99711 4.40112 7.51988 4.59791 7.99497C4.7947 8.47006 5.12794 8.87612 5.55551 9.16182ZM6.2222 5.83594C6.45243 5.6821 6.7231 5.6 7 5.6C7.37065 5.6021 7.72553 5.75027 7.98762 6.01237C8.24972 6.27446 8.39789 6.62934 8.4 7C8.4 7.27689 8.31789 7.54756 8.16405 7.77779C8.01022 8.00802 7.79157 8.18746 7.53575 8.29343C7.27994 8.39939 6.99844 8.42711 6.72687 8.37309C6.4553 8.31908 6.20584 8.18574 6.01005 7.98994C5.81425 7.79415 5.68091 7.54469 5.6269 7.27312C5.57288 7.00155 5.6006 6.72006 5.70656 6.46424C5.81253 6.20842 5.99197 5.98977 6.2222 5.83594Z" fill="currentColor"></path></svg></div></span></div><div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" role="separator" data-pc-name="divider" data-pc-section="root" style="justify-content: center;"><div class="p-divider-content" data-pc-section="content"></div></div><a class="break-words" href="mailto:contact@himanshujangid.com">contact@himanshujangid.com</a></div></div></div></div></div></div></div>
+  
+
+</body></html>
